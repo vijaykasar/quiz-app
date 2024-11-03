@@ -68,3 +68,13 @@ The Quiz App is a RESTful API that allows users to create and manage quizzes. Us
     ```bash
     docker-compose up --build
     ```
+
+## API Testing
+
+To test the API, import the Postman collection:
+
+1. Open Postman.
+2. Go to **File > Import**.
+3. Select the `postman/quiz-app.postman_collection.json` file from this repository.
+
+This collection contains all the necessary requests for interacting with the Quiz API.
